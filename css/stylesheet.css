@@ -1,0 +1,445 @@
+.line{
+    width: 65px;
+    height: 2px;
+    background-color: white;
+
+}
+
+
+.header-section .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+
+}
+.header-section .nav-bar ul{
+    list-style: none;
+    display: inline-flex;
+
+
+}
+.header-section .nav-bar ul li{
+    padding-right: 2rem;
+    color: #12141f;
+}
+.header-section .nav-bar button{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border: none;
+    border-radius: 40px;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+.header-section .nav-bar button:hover{
+    background: orange;
+}
+
+
+.header-section .welcome-message{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+}
+.header-section .welcome-message h3 {
+    color: rgba(0,0,255,0.6);
+    margin-top: 4rem;
+
+}
+.header-section .welcome-message h1{
+    color: #130f40;
+}
+
+.header-section .welcome-message p{
+color: rgba(0,0,255,0.4);
+    margin-bottom: 2rem;
+}
+.header-section .welcome-message .welcome-text .register-button{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background: orangered;
+    cursor: pointer;
+
+}
+.header-section .welcome-message .welcome-text .register-button:hover{
+    background-color: darkorange;
+}
+.header-section .welcome-message .welcome-text .start-button{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 100px;
+    border-style: double;
+    color: blue;
+    background: white;
+    cursor: pointer;
+}
+.header-section .welcome-message .welcome-text .start-button:hover{
+    background-color: orangered;
+}
+
+
+
+.header-section .welcome-message .welcome-text .register-button .start-button{
+    margin: 2rem;
+}
+
+
+
+
+.feature-section{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4rem;
+}
+.feature-section .row-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.feature-section .section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color:  #130f40;
+    line-height: 1.29;
+}
+.feature-section .section-description{
+    color: rgba(0,0,255,0.4);
+    margin-bottom: 2rem;
+
+}
+
+.feature-section .read-button{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 200px;
+    border: none;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.feature-section .read-button:hover{
+    background-color: darkorange;
+}
+.feature-section .row-card .feature-card{
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    color: rgba(103, 120, 114, 0.5);
+    margin: 0rem 3rem 0rem 3rem;
+}
+.feature-section .row-card .feature-card:hover{
+    border-style: solid;
+    color: #ffc107;
+
+}
+
+.feature-section .row-card .feature-card .icon{
+    background: #dfe6e9;
+    color:#130f40;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature-section .row-card .feature-card .icon:hover{
+    background-color:orange;
+}
+
+.feature-section .row-card .feature-card .card-title{
+    color: #130f40;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.feature-section .row-card .feature-card .card-text{
+    color: rgba(0,0,255,0.4);
+    margin-bottom: 1.5rem;
+    line-height: 1.75;
+
+}
+.about-section .learn{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8rem;
+
+
+
+}
+.about-section .welcome-texts{
+    padding-top: 4rem;
+}
+.about-section .welcome-image img {
+    padding-right: 2rem;
+
+
+}
+.about-section .welcome-texts .title{
+    color: #556172;
+    font-size: 14px;
+    padding-left: 4rem;
+    text-transform: uppercase;
+}
+.about-section .welcome-texts .text h1{
+    color: #0c2e60;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    line-height: 35px;
+    margin-top: 15px;
+    padding-left: 2rem;
+}
+.about-section .welcome-texts .text p{
+    color: #888888;
+    line-height: 1.929;
+    margin-bottom: 2rem;
+    font-size: 0.75rem;
+}
+.about-section .welcome-texts .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: #888888;
+}
+.about-section .welcome-texts .icon .icon-image{
+    padding-right: 1rem;
+}
+.about-section .welcome-texts .register-button{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 200px;
+    border: none;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+.about-section .welcome-texts .register-button:hover{
+    background-color: orangered;
+}
+
+.about-section .single-num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.about-section .single-num{
+    background-color: orangered;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+
+}
+.about-section .single-num:hover{
+    background-color: darkorange;
+}
+.about-section .single-num .number{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.about-section .single-num h4 {
+    padding-top: 2rem;
+}
+.about-section .single-num .line{
+    width: 65px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.course-section .special{
+    text-align: center;
+}
+
+.course-section .special .title{
+    color: #556172;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 11px;
+    font-size: 1rem;
+}
+.course-section .special h1{
+    color: #0c2e60;
+    font-size: 2.5rem;
+}
+.course-section .special .line{
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+    height: 2px;
+    background-color: #ff663b;
+}
+.course-section .cards .welcome-text {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+
+}
+.course-section .cards .welcome-text h4 {
+    padding-left: 7rem;
+    color: #ff663b;
+}
+
+.course-section .cards .welcome-text .register-button{
+    padding: 0rem 3rem 0rem 3rem;
+    border: none;
+    background-color: #ff663b;
+    color: white;
+}
+
+.course-section .cards h3{
+    color: #0c2e60;
+    font-size: 1.5rem;
+    line-height:1.3px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.course-section .cards h3:hover{
+color: #ff663b;;
+}
+
+.course-section .cards p {
+    color: #888;
+    font-size: 1rem;
+    padding-top: 1rem;
+
+}
+.course-section .cards .welcome-image img{
+    margin-top: 5rem;
+}
+
+
+
+
+.course-section .group .cards.author-imag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-section .cards .image-and-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.course-section .cards .author-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.course-section .cards .rate-icon{
+    padding-right: 60rem;
+    padding-top: 2rem;
+}
+
+.course-section .cards .image-and-name .name p {
+    color: #556172;
+    font-size: 1rem;
+}
+
+.course-section .cards .image-and-name .name h5 {
+    color: #0c2e60;
+    font-size: 1rem;
+}
+
+.course-section .cards .rate-icon .rating {
+    color: #ffc107;
+}
+
+.course-section .cards .rate-icon .text{
+    color: #888;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    max-width: 1450px;
+    margin: auto;
+}
+
+.container-small{
+    max-width: 1000px;
+    margin: auto;
+}
+.small-container{
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+
+
